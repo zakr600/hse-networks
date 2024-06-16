@@ -19,7 +19,8 @@ switchport access vlan [номер_vlan]
 exit
 
 write mem
-4. Для настройки статического trunk на Switch-ах:
+
+3. Для настройки статического trunk на Switch-ах:
 
 interface [тип_порта][номер_порта]
 
@@ -30,5 +31,5 @@ switchport trunk encapsulation dot1q
 exit
 
 write mem
-5. Для настройки STP:
-Spanning-tree vlan [номер_vlan] root primary
+4. Для настройки STP:
+spanning-tree vlan [номер_vlan] root primary
