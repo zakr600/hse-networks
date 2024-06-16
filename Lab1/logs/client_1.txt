@@ -1,0 +1,16 @@
+VPCS> ping 10.0.10.1
+
+10.0.10.1 icmp_seq=1 ttl=64 time=0.001 ms
+10.0.10.1 icmp_seq=2 ttl=64 time=0.001 ms
+10.0.10.1 icmp_seq=3 ttl=64 time=0.001 ms
+10.0.10.1 icmp_seq=4 ttl=64 time=0.001 ms
+10.0.10.1 icmp_seq=5 ttl=64 time=0.001 ms
+
+VPCS>
+VPCS> ping 10.0.20.1
+
+84 bytes from 10.0.20.1 icmp_seq=1 ttl=63 time=22.282 ms
+84 bytes from 10.0.20.1 icmp_seq=2 ttl=63 time=45.586 ms
+84 bytes from 10.0.20.1 icmp_seq=3 ttl=63 time=28.431 ms
+84 bytes from 10.0.20.1 icmp_seq=4 ttl=63 time=26.968 ms
+84 bytes from 10.0.20.1 icmp_seq=5 ttl=63 time=41.150 ms
