@@ -9,16 +9,26 @@
 Для настройки использовал команды:
 1. На клиентах назначил командой "ip [address]/[mask] [gateway]" назначил им нужные ip-адреса и шлюзы
 2. Для настройки VLAN на Switch-ах использовал команды
+
 interface [тип_порта][номер_порта]
+
 switchport mode access
+
 switchport access vlan [номер_vlan]
+
 exit
+
 write mem
-3. Для настройки статического trunk на Switch-ах:
+4. Для настройки статического trunk на Switch-ах:
+
 interface [тип_порта][номер_порта]
+
 switchport mode trunk
+
 switchport trunk encapsulation dot1q
+
 exit
+
 write mem
-4. Для настройки STP:
+5. Для настройки STP:
 Spanning-tree vlan [номер_vlan] root primary
